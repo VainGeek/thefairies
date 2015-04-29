@@ -88,6 +88,10 @@ header a {
 	background-image: url(../images/cloudmountaintrees.jpeg);
 }
 
+#blackmountain {
+	background-image: url(../images/blackmountain.jpeg);
+}
+
 .scroll-effect {
 	height: 100vh;
 	background-position: center;
