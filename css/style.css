@@ -1,9 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
-@import url (http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
 
 body {
-	font-family: 'Merriweather', serif;
-	font-size: 20px;
+	font-family: 'Roboto', serif;
+	font-size: 15px;
 	line-height: 1.6;
 	color: white;
     text-shadow:
@@ -11,16 +13,29 @@ body {
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000; 
+    text-align: center;
 }
 
 h1, h2 {
 	font-family: 'Fredericka the Great', cursive;
-	font-size: 20px;
-	 text-shadow:
+	text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+}
+
+nav {
+	position: center;
+}
+
+nav a {
+	color: #374870;
+	text-decoration: none;
+	font-family: 'Fredericka the Great', cursive;
+	text-shadow: none;
+	font-size: 25px;
+	padding: 20px 50px;
 }
 
 header {
@@ -48,7 +63,7 @@ h2 {
 
 header a {
 	position: absolute;
-	bottom: 40px;
+	bottom: 60px;
 	left: 50%;
 	margin-right: 22px;
 }
@@ -100,5 +115,6 @@ h3 {
 p {
 	display: block;
 	padding: 100px;
+	text-align: left;
 
 }
