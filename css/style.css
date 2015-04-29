@@ -6,13 +6,13 @@
 body {
 	font-family: 'Roboto', serif;
 	font-size: 15px;
-	line-height: 1.6;
+	line-height: 1.4;
 	color: white;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000; 
+    -1.5px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000; 
     text-align: center;
 }
 
@@ -92,6 +92,10 @@ header a {
 	background-image: url(../images/blackmountain.jpeg);
 }
 
+#blackmountaincloud {
+	background-image: url(../images/blackmountaincloud.jpeg);
+}
+
 .scroll-effect {
 	height: 100vh;
 	background-position: center;
@@ -121,4 +125,8 @@ p {
 	padding: 100px;
 	text-align: left;
 
+}
+
+.extra p {
+	font-size: 17px;
 }
