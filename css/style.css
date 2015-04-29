@@ -38,6 +38,10 @@ nav a {
 	padding: 20px 50px;
 }
 
+nav a:hover {
+	text-decoration: underline;
+}
+
 header {
 	background: url(../images/cloudmountainstream.jpeg) no-repeat center;
 	background-size: cover;
@@ -128,5 +132,5 @@ p {
 }
 
 .extra p {
-	font-size: 17px;
+	font-size: 18px;
 }
